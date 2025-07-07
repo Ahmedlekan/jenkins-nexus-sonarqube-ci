@@ -49,7 +49,7 @@ chmod +x installation-scripts/*
 ./installation-scripts/install_sonarqube.sh
 ```
 
-## Architecture
+## Pipeline
 
 <img width="1280" height="737" alt="Image" src="https://github.com/user-attachments/assets/adf46a2a-7a95-443f-b35a-6cca5ced91f2" />
 
