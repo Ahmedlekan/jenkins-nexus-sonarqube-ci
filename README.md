@@ -1,4 +1,4 @@
-# Jenkins CI/CD Pipeline with Nexus and SonarQube Integration
+# Jenkins CI Pipeline with Nexus and SonarQube Integration
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
