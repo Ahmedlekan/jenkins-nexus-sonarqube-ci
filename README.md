@@ -2,8 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-![CI](https://github.com/Ahmedlekan/jenkins-nexus-sonarqube-ci/actions/workflows/ci.yml/badge.svg)
-
 Complete infrastructure-as-code solution for setting up a Jenkins CI/CD pipeline with Nexus artifact repository and SonarQube code quality analysis.
 
 ```mermaid
@@ -20,7 +18,7 @@ graph TD
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/jenkins-nexus-sonarqube-ci.git
+git clone https://github.com/Ahmedlekan/jenkins-nexus-sonarqube-ci.git
 cd jenkins-nexus-sonarqube-ci
 
 # Run installation scripts
