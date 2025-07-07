@@ -4,36 +4,7 @@
 
 Complete infrastructure-as-code solution for setting up a Jenkins CI/CD pipeline with Nexus artifact repository and SonarQube code quality analysis.
 
-```mermaid
-graph LR
-    subgraph Developer Environment
-        A[Developer Laptop] -->|git push| B[GitHub]
-    end
-
-    subgraph AWS Cloud
-        B --> C[Jenkins Server\non EC2]
-        C --> D[Build]
-        D --> E[Unit Tests]
-        E --> F{Quality Gate}
-        F -->|Pass| G[Nexus OSS\nArtifact Repository]
-        F -->|Fail| H[Slack/Email Alert]
-        G --> I[Deployment Targets]
-        
-        C --> J[SonarQube\nAnalysis]
-        J --> F
-    end
-
-    style A fill:#4CAF50,stroke:#388E3C
-    style B fill:#24292e,stroke:#000000
-    style C fill:#F6D55C,stroke:#ED553B
-    style D fill:#2196F3,stroke:#0D47A1
-    style E fill:#2196F3,stroke:#0D47A1
-    style F fill:#9C27B0,stroke:#7B1FA2
-    style G fill:#607D8B,stroke:#455A64
-    style H fill:#F44336,stroke:#D32F2F
-    style I fill:#4CAF50,stroke:#388E3C
-    style J fill:#84C1FF,stroke:#4285F4
-```
+<img width="5955" height="921" alt="Image" src="https://github.com/user-attachments/assets/b232541e-83f1-4d29-add0-8ade6d9b4a89" />
 
 ## Quick Start
 
