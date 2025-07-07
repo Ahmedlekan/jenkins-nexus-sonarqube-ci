@@ -51,8 +51,6 @@ chmod +x installation-scripts/*
 
 ## Table of Contents
 
-1. [Architecture](#architecture)
-
 2. [Prerequisites](#prerequisites)
 
 3. [Installation](#installation)
@@ -62,12 +60,6 @@ chmod +x installation-scripts/*
 5. [Pipeline Details](#pipeline-details)
 
 6. [Troubleshooting](#troubleshooting)
-
-
-## Architecture
-
-![System Architecture](images/architecture.png) <!-- Add a diagram if possible -->
-
 
 ## Prerequisites
 
@@ -79,9 +71,15 @@ SSH (port 22)
 
 Jenkins web interface (port 8080)
 
+<img width="1863" height="607" alt="Image" src="https://github.com/user-attachments/assets/e34bf94d-af5a-4b5b-988b-d3eafb3eee06" />
+
 Nexus (port 8081)
 
+<img width="1874" height="645" alt="Image" src="https://github.com/user-attachments/assets/e3790c6b-d811-4c19-b630-576836075aeb" />
+
 SonarQube (port 9000)
+
+<img width="1873" height="645" alt="Image" src="https://github.com/user-attachments/assets/debe5634-26a3-463a-8c8b-7436c2888a2d" />
 
 3. Basic Linux command line knowledge
 
@@ -300,7 +298,6 @@ pipeline {
 }
 ```
 
-
 ## Troubleshooting
 
 ### Common Issues
@@ -346,8 +343,5 @@ Jenkins: /var/log/jenkins/jenkins.log
 Nexus: /opt/nexus/sonatype-work/nexus3/log/nexus.log
 
 SonarQube: /opt/sonarqube/logs/
-
-Nginx: /var/log/nginx/
-
 
 
